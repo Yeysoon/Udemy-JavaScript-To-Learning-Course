@@ -14,8 +14,16 @@ Estructura:
     .bloque__elemento--modificador{ 
     }
 
+
+1. No Usar ID 
+2. No usar etiquetas
+3. Que todo sea un key selector (Seleccionar justo el elemento al cual se le dara estilos)
+
 */
 
+
+
+/*Forma clasica de trabajar*/
 .cards {
     width: 400px;
     margin: 10px auto;
@@ -32,6 +40,7 @@ Estructura:
     background-color: lightskyblue;
 }
 
+/*clave*/
 .cards .card h3 {
     font-size: 24px;
     font-weight: bold;
