@@ -8,8 +8,8 @@ Tenemos 7 cajas con 8 cookies rellenas de chocolate cada una.
 */
 
 let cajas = 7;
-let cookiesxCaja = 8;
+const cookiesxCaja = 8;
 
 let totalCookies = cajas * cookiesxCaja;
 
-console.log("El total de cookies que tenemos es de " + totalCookies + "por que en cada caja hay " + cookiesxCaja + " cookies y tenemos " + cajas + " cajas");
+console.log("El total de cookies que tenemos es de " + totalCookies + " por que en cada caja hay " + cookiesxCaja + " cookies y tenemos " + cajas + " cajas");
