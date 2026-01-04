@@ -12,4 +12,7 @@ let pesoDeJirafa = 1120;
 let comidaDeJirafa = 141;
 const pesoTotalJirafa = pesoDeJirafa + comidaDeJirafa;
 
-console.log("El peso de la jirafa ahora es de " + pesoTotalJirafa + " kilos")
+// let resultado = "El peso de la jirafa ahora es de " + pesoTotalJirafa + " kilos";
+
+resultado = `El peso de la jirafa ahora es de ${pesoTotalJirafa} kilos`;
+console.log(resultado);
