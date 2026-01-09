@@ -53,3 +53,38 @@ if (edad2 >= 18) {
 } else {
     console.log(nombre2 + " tiene " + edad2 + " años y es menor de edad");
 }
+
+//Ejemplo 4:
+let buenTiempo = true;
+
+if (!buenTiempo) {
+    console.log("Nos vamos al parque a pasear");
+} else {
+    console.log("Nos quedamos en casa");
+}
+
+
+//Ejemplo 5:
+
+let year = 2028;
+
+if (year >= 2000 && year <= 2030) {
+    console.log("Estamos en la era moderna");
+} else if (year >= 2030) {
+    console.log("Estamos en la era post moderna");
+} else {
+    console.log("Estamos en la era antigua");
+}
+
+
+// Ejemplo 6:
+
+if (year == 2007 || year == 2017 || year == 2027 || year == 2037) {
+
+    console.log("El año acaba en 7 !!!");
+
+} else {
+
+    console.log("Año desconocido!!");
+
+}
