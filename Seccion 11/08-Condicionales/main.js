@@ -24,4 +24,12 @@ let edad = 1;
 let resultado = (edad >= 18) ? "Puedes votar" : "No puedes votar";
 console.log(nombre + " " + resultado + " por que tiene  " + edad);
 
-//Diferencias entre var y let (ambito/bloque)
+//Diferencias entre var y let (alcance/bloque)
+
+var curso = "JavaScript";
+
+if ("hola" == "hora") {
+    curso = "HTML";
+    console.log(curso);
+}
+console.log(curso);
