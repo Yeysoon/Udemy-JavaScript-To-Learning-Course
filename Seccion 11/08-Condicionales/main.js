@@ -18,5 +18,10 @@ switch (miDesayuno) {
 
 //Condicional Ternario
 
+let nombre = "Juan Alberto"
+let edad = 1;
+
+let resultado = (edad >= 18) ? "Puedes votar" : "No puedes votar";
+console.log(nombre + " " + resultado + " por que tiene  " + edad);
 
 //Diferencias entre var y let (ambito/bloque)
