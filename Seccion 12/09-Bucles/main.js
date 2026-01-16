@@ -16,5 +16,5 @@ Ejemplo:
 let numero = 177;
 
 for (let contador = 0; contador <= numero; contador++) {
-    console.log(contador);
+    console.log("Vamos por el numero: " + contador);
 }
